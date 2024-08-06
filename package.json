@@ -1,0 +1,22 @@
+{
+    "name": "queueflix",
+    "version": "0.0.1",
+    "author": "z3ttee",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/z3ttee/queueflix"
+    },
+    "scripts": {
+        "ci:lint": "",
+        "ci:build": ""
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3",
+        "turbo": "^2.0.11"
+    },
+    "workspaces": [
+        "backend",
+        "frontend"
+    ]
+}
